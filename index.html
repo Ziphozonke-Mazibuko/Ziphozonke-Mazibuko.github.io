@@ -4,6 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ziphozonke Mazibuko</title>
+  <style>
+    :root {
+      --navy: #12213b;
+      --ink: #1c1e22;
+      --muted: #5b6270;
+      --bg: #f7f5f0;
+      --gold: #a8763a;
+      --line: #e2ddd2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.6;
+    }
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 48px 24px;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      letter-spacing: -0.01em;
+    }
+    header p {
+      margin: 0;
+      color: #c9d1e0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 20px;
+    }
+    section { margin-bottom: 36px; }
+    h2 {
+      font-size: 1.2rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+    }
+    main p { font-family: Helvetica, Arial, sans-serif; }
+    ul { padding-left: 0; list-style: none; font-family: Helvetica, Arial, sans-serif; }
+    li {
+      padding: 10px 0 10px 22px;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+    li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+    }
+    footer {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 24px 48px;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    footer a {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    footer a:hover { background: var(--gold); }
+  </style>
 </head>
 <body>
   <header>
